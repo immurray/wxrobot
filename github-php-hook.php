@@ -26,7 +26,7 @@
     echo "---";
     echo shell_exec(whoami);
     echo "---";
-
+    echo shell_exec("id -a"); 
     echo "|";
     //last error
     var_dump(preg_last_error());
