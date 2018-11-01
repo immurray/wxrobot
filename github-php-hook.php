@@ -30,3 +30,4 @@
     echo "|";
     //last error
     var_dump(preg_last_error());
+?>
