@@ -21,7 +21,10 @@
     
     //debug shell_exec cmd
     echo $target;
+    echo "---";
     echo $cmd;
+    echo "---";
     echo shell_exec(whoami);
+    echo "---";
     //last error
     var_dump(preg_last_error());
