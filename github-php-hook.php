@@ -26,5 +26,7 @@
     echo "---";
     echo shell_exec(whoami);
     echo "---";
+
+    echo "|";
     //last error
     var_dump(preg_last_error());
