@@ -20,4 +20,5 @@
     echo shell_exec($cmd);
     
     //debug shell_exec
+    echo $cmd;
     var_dump(preg_last_error());
