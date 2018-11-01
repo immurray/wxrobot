@@ -7,9 +7,9 @@
 
     $json = json_decode(file_get_contents('php://input'), true);
 
-    if (empty($json['token']) || $json['token'] !== $token) {
-        exit('error request');
-    }
+    //if (empty($json['token']) || $json['token'] !== $token) {
+    //    exit('error request');
+    //}
 
     $repo = $json['repository']['name'];
 
