@@ -19,7 +19,8 @@
 
     echo shell_exec($cmd);
     
-    //debug shell_exec
+    //debug shell_exec cmd
     echo $target;
     echo $cmd;
+    //last error
     var_dump(preg_last_error());
