@@ -17,3 +17,6 @@
     $cmd = "cd $target && git pull";
 
     echo shell_exec($cmd);
+    
+    //debug shell_exec
+    var_dump(preg_last_error());
