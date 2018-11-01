@@ -1,5 +1,6 @@
 <?php
     error_reporting(1);
+
     $target = dirname(__FILE__);
     $token = 'ismurray';
     $wwwUser = 'www';
