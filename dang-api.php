@@ -1,7 +1,7 @@
 <?php
 /* 这是党建的api接口 */
 
-getTodayOfParty();
+echo getTodayOfParty();
 
 
 /* 定义6个类型内容：*/
